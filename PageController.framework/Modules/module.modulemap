@@ -1,0 +1,10 @@
+framework module PageController {
+  umbrella header "PageController.h"
+
+  export *
+  module * { export * }
+}
+
+module PageController.Swift {
+    header "PageController-Swift.h"
+}
